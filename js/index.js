@@ -7,6 +7,7 @@ let speed = 6;
 let score = 0;
 let tscore = 5;
 let lastPaintTime = 0;
+let val = 0;
 let snakeArr = [
     { x: 13, y: 15 }
 ];
@@ -25,6 +26,23 @@ function main(ctime) {
     gameEngine();
 }
 
+function volume(){
+    var volumeIcon = document.getElementById('volumer');
+
+    // Check the current icon and toggle to the opposite
+    if (volumeIcon.innerHTML === 'volume_up') {
+        val = 1;
+      volumeIcon.innerHTML = 'volume_off';
+      // You can add logic here to handle volume off action
+      console.log('Volume off');
+    } 
+    else{
+        val = 0;
+      volumeIcon.innerHTML = 'volume_up';
+      // You can add logic here to handle volume up action
+      console.log('Volume up');
+    }
+}
 function isCollide(snake) {
     // If you bump into yourself 
     for (let i = 1; i < snakeArr.length; i++) {
@@ -131,7 +149,14 @@ if (hiscore === null) {
 window.requestAnimationFrame(main);
 window.addEventListener('keydown', e => {
     inputDir = { x: 0, y: 1 } // chaliya shuru karte ha
-    musicSound.play();
+
+    // music condition 
+    if(val==0){
+        musicSound.play();
+    }
+    if(val==1){
+        musicSound.pause();
+    }
     moveSound.play();
     switch (e.key) {
         case "ArrowUp":
