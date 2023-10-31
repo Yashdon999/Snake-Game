@@ -60,8 +60,7 @@ function isCollide(snake) {
 
 function gameEngine() {
     //part 1 : pahile snake ka array or food ko update karna ha
-    //part 1 : updating snake and food arrays
-    
+    //Updating snake and food arrays
     if (isCollide(snakeArr)) {
         gameOverSound.play();
         musicSound.pause();
@@ -92,6 +91,7 @@ function gameEngine() {
         //console.log(score);
 
         // game ko intreasting bana ne ke liye speed increase hongi jase jase score bade ga
+        // The more score is gained, the more speed the snake will be 
         if(score>tscore)
         {
             speed = speed+3;
@@ -127,6 +127,7 @@ function gameEngine() {
         }
         board.appendChild(snakeElement);
 
+    //Display the snake head rotation when inputing keys 
         if (inputDir.x === 0 && inputDir.y === -1) {
             snakeElement.classList.add('headup');
         } else if (inputDir.x === 0 && inputDir.y ===1) {
@@ -159,7 +160,7 @@ if (hiscore === null) {
 
 window.requestAnimationFrame(main);
 window.addEventListener('keydown', e => {
-    inputDir = { x: 0, y: 1 } // chaliya shuru karte ha
+    inputDir = { x: 0, y: 1 } // chaliya shuru karte ha 
 
     // music condition 
     if(val==0){
