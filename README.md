@@ -1,3 +1,4 @@
+<h2 align="center"><b>⭐ Star our repository and grow our community</b></h2>
 # 🐍 Snake Game
 
 **Welcome to the Snake Game!** Dive into the world of classic Snake gameplay with our modern, web-based game. Control your slithering character, consume randomly generated food, and watch your snake grow. Be nimble and avoid those pesky walls and the grip of your own tail!
