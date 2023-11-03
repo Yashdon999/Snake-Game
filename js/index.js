@@ -60,7 +60,7 @@ function isCollide(snake) {
 
 function gameEngine() {
     //part 1 : pahile snake ka array or food ko update karna ha
-    
+    //Updating snake and food arrays
     if (isCollide(snakeArr)) {
         gameOverSound.play();
         musicSound.pause();
@@ -77,6 +77,7 @@ function gameEngine() {
 
     // aagar khana kha liya to dusri gajha food rakhna padenga
     // jab khana ka liya tab score badana ha or naya khana add karo
+    // When the snake ate "food", increasing score and adding new "food"
     if (snakeArr[0].y === food.y && snakeArr[0].x === food.x) {
         
         foodSound.play();
@@ -90,6 +91,7 @@ function gameEngine() {
         //console.log(score);
 
         // game ko intreasting bana ne ke liye speed increase hongi jase jase score bade ga
+        // The more score is gained, the more speed the snake will be 
         if(score>tscore)
         {
             speed = speed+3;
@@ -119,11 +121,21 @@ function gameEngine() {
         snakeElement.style.gridColumnStart = e.x;
 
         if (index === 0) {
-            snakeElement.classList.add('head');
+            snakeElement.classList.add('headleft');
         } else {
             snakeElement.classList.add('snake');
         }
         board.appendChild(snakeElement);
+
+    //Display the snake head rotation when inputing keys 
+        if (inputDir.x === 0 && inputDir.y === -1) {
+            snakeElement.classList.add('headup');
+        } else if (inputDir.x === 0 && inputDir.y ===1) {
+            snakeElement.classList.add('headdown');
+        } else if (inputDir.x === 1 && inputDir.y ===0) {
+            snakeElement.classList.add('headright');
+        }
+
     });
     // Display the food
     foodElement = document.createElement('div');
@@ -148,7 +160,7 @@ if (hiscore === null) {
 
 window.requestAnimationFrame(main);
 window.addEventListener('keydown', e => {
-    inputDir = { x: 0, y: 1 } // chaliya shuru karte ha
+    inputDir = { x: 0, y: 1 } // chaliya shuru karte ha 
 
     // music condition 
     if(val==0){
