@@ -86,7 +86,7 @@
 <h2 align="center">🚀 Languages and Tools Used</h2>
 
 <p align="center"> 
-  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="HTML5.svg" alt="css3" width="60" height="60"/> </a> 
+  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="HTML5.png" alt="css3" width="60" height="60"/> </a> 
   <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="JS.svg" alt="html5" width="60" height="60"/> </a> 
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="JS.svg" alt="javascript" width="60" height="60"/> </a> 
 </p>
