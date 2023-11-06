@@ -88,5 +88,5 @@
 <p align="center"> 
   <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="HTML5.png" alt="html5" width="60" height="60"/> </a> 
   <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="css.png" alt="css" width="60" height="60"/> </a> 
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="JS.svg" alt="javascript" width="60" height="60"/> </a> 
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="Javascript.png" alt="javascript" width="60" height="60"/> </a> 
 </p>
