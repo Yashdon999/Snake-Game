@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="snake_game_banner.png" alt="Snake Game Banner" width="500" height="250">
+  <img src="snake_game_logo.png" alt="Snake Game Banner" width="500" height="250">
 </p>
 
 <h1 align="center"><b>🐍 Welcome to the Snake Game! 🕹️</b></h1>
@@ -15,7 +15,7 @@
 <h2 align="center">🕹️ How to Play</h2>
 
 <p align="center">
-  <img src="snake_game_controls.png" alt="Snake Game Controls" width="200" height="200">
+  <img src="game_control.jpg" alt="Snake Game Controls" width="200" height="200">
 </p>
 
 <p align="center">
@@ -86,7 +86,7 @@
 <h2 align="center">🚀 Languages and Tools Used</h2>
 
 <p align="center"> 
-  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="CSS3.svg.png" alt="css3" width="60" height="60"/> </a> 
-  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="HTML5.svg.png" alt="html5" width="60" height="60"/> </a> 
+  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="HTML5.svg" alt="css3" width="60" height="60"/> </a> 
+  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="JS.svg" alt="html5" width="60" height="60"/> </a> 
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="JS.svg" alt="javascript" width="60" height="60"/> </a> 
 </p>
