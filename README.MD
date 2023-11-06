@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="snake_game_logo.png" alt="Snake Game Banner" width="500" height="250">
+  <img src="logo.png" alt="Snake Game Banner" width="500" height="250">
 </p>
 
 <h1 align="center"><b>🐍 Welcome to the Snake Game! 🕹️</b></h1>
